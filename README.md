@@ -73,6 +73,8 @@ Bash into docker using:
 2)python3 scrape.py   (will run the scraping of all 1000 movies)
 
 
+
+
 Without docker
 
 python3 scrape.py
