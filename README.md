@@ -17,9 +17,9 @@ Python3, Flask, Requests, and BeautifulSoup
 
 With docker
 
-1)sudo docker build -t name .
+1)sudo docker build -t imbdscraper .
 
-2)sudo docker run -d -p port:port_mapping name
+2)sudo docker run -d -p port:port_mapping imbdscraper
 
 
 ```
@@ -68,7 +68,7 @@ With docker
 
 Bash into docker using:
 
-1)docker exec -it container_name /bin/bash
+1)sudo docker exec -it container_id /bin/bash
 
 2)python3 scrape.py   (will run the scraping of all 1000 movies)
 
