@@ -68,7 +68,7 @@ With docker
 
 Bash into docker using:
 
-1)docker exec -it <container name> /bin/bash
+1)docker exec -it container_name /bin/bash
 
 2)python3 scrape.py   (will run the scraping of all 1000 movies)
 
