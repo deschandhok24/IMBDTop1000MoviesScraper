@@ -80,8 +80,6 @@ class IMBDTopScraper(object):
 	def run(self):
 		while(self.counter + self.offset < self.limit):
 			scrape_url = self.create_url()
-			#self.counter = self.count_per_page + self.offset
-			print (scrape_url)
 			self.scrape_movies(scrape_url)
 
 	def dump(self):
